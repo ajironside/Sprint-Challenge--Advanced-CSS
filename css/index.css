@@ -165,6 +165,7 @@ p {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
+  background-color: #F1F1F1;
 }
 .navigation h1 {
   font-size: 4rem;
@@ -232,6 +233,19 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  color: #F6F6F6;
+  background-color: #23293B;
+  font-size: 1.8rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 2.5%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }
 .home .walk .walk-img {
   width: 46%;
