@@ -1,1 +1,21 @@
 // Navigation code here
+.navigation {
+    .change-layout(space-around, center);
+    flex-direction: column;
+    
+    h1{
+        font-size: 4rem;
+        padding:2% 0;
+    }
+
+    nav{
+        .change-layout(space-evenly, center);
+        width:40%;
+        margin-bottom: 1%;
+
+        a{
+            color:@header-font-color;
+            font-size: 1.3rem;
+        }
+    }
+}
