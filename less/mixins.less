@@ -1,1 +1,23 @@
 // Mixins Here
+.change-layout(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+
+.custom-btn(@color, @background, @size){
+    color: @color;
+    background-color: @background;
+    font-size: @size;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding:2.5%;
+    width:30%; 
+    .change-layout(center, center);
+}
+
+.mouse-over(@text, @bg){
+    color: @text;
+    background-color: @bg;
+}
